@@ -1,0 +1,6 @@
+/home/wiles/MonitoringSystem/CMake_Demo/build/CMakeFiles/CMake_Demo.dir
+/home/wiles/MonitoringSystem/CMake_Demo/build/CMakeFiles/edit_cache.dir
+/home/wiles/MonitoringSystem/CMake_Demo/build/CMakeFiles/rebuild_cache.dir
+/home/wiles/MonitoringSystem/CMake_Demo/build/src/CMakeFiles/CMake_Lib.dir
+/home/wiles/MonitoringSystem/CMake_Demo/build/src/CMakeFiles/edit_cache.dir
+/home/wiles/MonitoringSystem/CMake_Demo/build/src/CMakeFiles/rebuild_cache.dir

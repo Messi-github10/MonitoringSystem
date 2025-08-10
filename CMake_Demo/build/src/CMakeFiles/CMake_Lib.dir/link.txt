@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libCMake_Lib.a CMakeFiles/CMake_Lib.dir/HelloWorld.cpp.o
+/usr/bin/ranlib ../lib/libCMake_Lib.a

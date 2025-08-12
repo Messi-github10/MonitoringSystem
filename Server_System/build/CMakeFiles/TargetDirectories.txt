@@ -1,7 +1,0 @@
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/Server_System.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/edit_cache.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/rebuild_cache.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/list_install_components.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/install.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/install/local.dir
-/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles/install/strip.dir

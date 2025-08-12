@@ -30,7 +30,8 @@ public:
     TcpConnection(int, EventLoop *);
     ~TcpConnection();   // 关闭连接 -> 关闭服务器写端
     string receive();   // 接收数据
-    void send(const string &);  // 发送数据
+    int readPacket(Packet &packet);
+    void send(const string &); // 发送数据
 
     string toString() const;    // 获取五元组信息
     void shutdown();            // 关闭写端
@@ -44,11 +45,16 @@ public:
     bool isClosed() const;  // 连接是否关闭
 
     void sendInLoop(const string &message); // 将数据发送操作转移到 EventLoop 的事件循环中执行（因此该类需要记录所属的事件循环）
+    void sendInLoop(const TLV &data);
 
 private:
 
     InetAddress getLocalAddr(int);  // 获取服务器本地的IP地址
     InetAddress getPeerAddr(int);   // 获取对端的IP地址
+
+public:
+    string current_username;    // 用于Login1传递用户名给Login2
+    string salt;
 
 private:
     Socket _sock;

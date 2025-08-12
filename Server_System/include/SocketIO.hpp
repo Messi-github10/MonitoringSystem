@@ -1,8 +1,11 @@
 #ifndef SOCKETIO_HPP
 #define SOCKETIO_HPP
 
+#include "Message.hpp"
 #include <string>
 using std::string;
+
+const size_t MAX_PACKET_SIZE = 16 * 1024 * 1024;
 
 class SocketIO{
 public:
@@ -10,7 +13,8 @@ public:
     ~SocketIO() = default;
     int sendn(const char *buffer, int len); // 发送数据
     int readline(char *buffer, int maxlen); // 读一行数据
-    int recvPeek(char *buffer, int maxlen) const;   // 窥探内核缓冲区中的数据数量
+    int readPacket(Packet &packet);         // 读取Packet
+    int recvPeek(char *buffer, int maxlen) const; // 窥探内核缓冲区中的数据数量
     int sendWithPrefix(const string &message);  // 发送数据（以数据长度前缀的方式）
     string receiveWithPrefix(); // 接受数据（以数据长度前缀的方式）
 

@@ -1,6 +1,8 @@
 #include "SocketIO.hpp"
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <vector>
+using std::vector;
 
 SocketIO::SocketIO(int fd)
 :_fd(fd)
@@ -59,6 +61,43 @@ int SocketIO::readline(char *buffer, int maxlen){
     }
     buffer[maxlen - 1] = '\0';
     return maxlen - 1;
+}
+
+int SocketIO::readPacket(Packet &packet){
+    // TLV的格式： type（4B）| length（4B）| value
+    int type, length;
+    int ret = recvn((char *)&type, sizeof(type));
+    if(ret != sizeof(type)){
+        return -1;
+    }
+    ret = recvn((char *)&length, sizeof(length));
+    if(ret != sizeof(length)){
+        return -1;
+    }
+
+    // 网络字节序 -> 主机字节序
+    type = ntohl(type);
+    length = ntohl(length);
+
+    // 验证长度
+    if(length < 0 || length > MAX_PACKET_SIZE){
+        return -1;
+    }
+
+    packet.type = type;
+    packet.length = length;
+
+    if(length > 0){
+        vector<char> buffer(length);
+        if(recvn(buffer.data(), length) != length){
+            return -1;
+        }
+        packet.message.assign(buffer.data(), length);
+    }else{
+        packet.message.clear();
+    }
+
+    return sizeof(type) + sizeof(length) + length;
 }
 
 int SocketIO::sendWithPrefix(const string &message){

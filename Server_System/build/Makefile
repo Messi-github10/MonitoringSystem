@@ -270,6 +270,78 @@ src/InetAddress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/InetAddress.cpp.s
 .PHONY : src/InetAddress.cpp.s
 
+src/Login.o: src/Login.cpp.o
+.PHONY : src/Login.o
+
+# target to build an object file
+src/Login.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Login.cpp.o
+.PHONY : src/Login.cpp.o
+
+src/Login.i: src/Login.cpp.i
+.PHONY : src/Login.i
+
+# target to preprocess a source file
+src/Login.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Login.cpp.i
+.PHONY : src/Login.cpp.i
+
+src/Login.s: src/Login.cpp.s
+.PHONY : src/Login.s
+
+# target to generate assembly for a file
+src/Login.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Login.cpp.s
+.PHONY : src/Login.cpp.s
+
+src/Main.o: src/Main.cpp.o
+.PHONY : src/Main.o
+
+# target to build an object file
+src/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
+
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
+
+# target to preprocess a source file
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
+
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
+
+# target to generate assembly for a file
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
+
+src/MonitorServer.o: src/MonitorServer.cpp.o
+.PHONY : src/MonitorServer.o
+
+# target to build an object file
+src/MonitorServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o
+.PHONY : src/MonitorServer.cpp.o
+
+src/MonitorServer.i: src/MonitorServer.cpp.i
+.PHONY : src/MonitorServer.i
+
+# target to preprocess a source file
+src/MonitorServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MonitorServer.cpp.i
+.PHONY : src/MonitorServer.cpp.i
+
+src/MonitorServer.s: src/MonitorServer.cpp.s
+.PHONY : src/MonitorServer.s
+
+# target to generate assembly for a file
+src/MonitorServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MonitorServer.cpp.s
+.PHONY : src/MonitorServer.cpp.s
+
 src/MutexLock.o: src/MutexLock.cpp.o
 .PHONY : src/MutexLock.o
 
@@ -293,6 +365,30 @@ src/MutexLock.s: src/MutexLock.cpp.s
 src/MutexLock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MutexLock.cpp.s
 .PHONY : src/MutexLock.cpp.s
+
+src/MySQLClient.o: src/MySQLClient.cpp.o
+.PHONY : src/MySQLClient.o
+
+# target to build an object file
+src/MySQLClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o
+.PHONY : src/MySQLClient.cpp.o
+
+src/MySQLClient.i: src/MySQLClient.cpp.i
+.PHONY : src/MySQLClient.i
+
+# target to preprocess a source file
+src/MySQLClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MySQLClient.cpp.i
+.PHONY : src/MySQLClient.cpp.i
+
+src/MySQLClient.s: src/MySQLClient.cpp.s
+.PHONY : src/MySQLClient.s
+
+# target to generate assembly for a file
+src/MySQLClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MySQLClient.cpp.s
+.PHONY : src/MySQLClient.cpp.s
 
 src/MyThread.o: src/MyThread.cpp.o
 .PHONY : src/MyThread.o
@@ -318,29 +414,53 @@ src/MyThread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/MyThread.cpp.s
 .PHONY : src/MyThread.cpp.s
 
-src/Server_Main.o: src/Server_Main.cpp.o
-.PHONY : src/Server_Main.o
+src/OpenSSLRandom.o: src/OpenSSLRandom.cpp.o
+.PHONY : src/OpenSSLRandom.o
 
 # target to build an object file
-src/Server_Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Server_Main.cpp.o
-.PHONY : src/Server_Main.cpp.o
+src/OpenSSLRandom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o
+.PHONY : src/OpenSSLRandom.cpp.o
 
-src/Server_Main.i: src/Server_Main.cpp.i
-.PHONY : src/Server_Main.i
+src/OpenSSLRandom.i: src/OpenSSLRandom.cpp.i
+.PHONY : src/OpenSSLRandom.i
 
 # target to preprocess a source file
-src/Server_Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Server_Main.cpp.i
-.PHONY : src/Server_Main.cpp.i
+src/OpenSSLRandom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.i
+.PHONY : src/OpenSSLRandom.cpp.i
 
-src/Server_Main.s: src/Server_Main.cpp.s
-.PHONY : src/Server_Main.s
+src/OpenSSLRandom.s: src/OpenSSLRandom.cpp.s
+.PHONY : src/OpenSSLRandom.s
 
 # target to generate assembly for a file
-src/Server_Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Server_Main.cpp.s
-.PHONY : src/Server_Main.cpp.s
+src/OpenSSLRandom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.s
+.PHONY : src/OpenSSLRandom.cpp.s
+
+src/Register.o: src/Register.cpp.o
+.PHONY : src/Register.o
+
+# target to build an object file
+src/Register.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Register.cpp.o
+.PHONY : src/Register.cpp.o
+
+src/Register.i: src/Register.cpp.i
+.PHONY : src/Register.i
+
+# target to preprocess a source file
+src/Register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Register.cpp.i
+.PHONY : src/Register.cpp.i
+
+src/Register.s: src/Register.cpp.s
+.PHONY : src/Register.s
+
+# target to generate assembly for a file
+src/Register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Register.cpp.s
+.PHONY : src/Register.cpp.s
 
 src/Socket.o: src/Socket.cpp.o
 .PHONY : src/Socket.o
@@ -511,15 +631,30 @@ help:
 	@echo "... src/InetAddress.o"
 	@echo "... src/InetAddress.i"
 	@echo "... src/InetAddress.s"
+	@echo "... src/Login.o"
+	@echo "... src/Login.i"
+	@echo "... src/Login.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
+	@echo "... src/MonitorServer.o"
+	@echo "... src/MonitorServer.i"
+	@echo "... src/MonitorServer.s"
 	@echo "... src/MutexLock.o"
 	@echo "... src/MutexLock.i"
 	@echo "... src/MutexLock.s"
+	@echo "... src/MySQLClient.o"
+	@echo "... src/MySQLClient.i"
+	@echo "... src/MySQLClient.s"
 	@echo "... src/MyThread.o"
 	@echo "... src/MyThread.i"
 	@echo "... src/MyThread.s"
-	@echo "... src/Server_Main.o"
-	@echo "... src/Server_Main.i"
-	@echo "... src/Server_Main.s"
+	@echo "... src/OpenSSLRandom.o"
+	@echo "... src/OpenSSLRandom.i"
+	@echo "... src/OpenSSLRandom.s"
+	@echo "... src/Register.o"
+	@echo "... src/Register.i"
+	@echo "... src/Register.s"
 	@echo "... src/Socket.o"
 	@echo "... src/Socket.i"
 	@echo "... src/Socket.s"

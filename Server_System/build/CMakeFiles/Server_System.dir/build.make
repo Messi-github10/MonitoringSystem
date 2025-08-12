@@ -125,10 +125,52 @@ CMakeFiles/Server_System.dir/src/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/InetAddress.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/InetAddress.cpp -o CMakeFiles/Server_System.dir/src/InetAddress.cpp.s
 
+CMakeFiles/Server_System.dir/src/Login.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/Login.cpp.o: ../src/Login.cpp
+CMakeFiles/Server_System.dir/src/Login.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server_System.dir/src/Login.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Login.cpp.o -MF CMakeFiles/Server_System.dir/src/Login.cpp.o.d -o CMakeFiles/Server_System.dir/src/Login.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Login.cpp
+
+CMakeFiles/Server_System.dir/src/Login.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/Login.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/Login.cpp > CMakeFiles/Server_System.dir/src/Login.cpp.i
+
+CMakeFiles/Server_System.dir/src/Login.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/Login.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/Login.cpp -o CMakeFiles/Server_System.dir/src/Login.cpp.s
+
+CMakeFiles/Server_System.dir/src/Main.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/Main.cpp.o: ../src/Main.cpp
+CMakeFiles/Server_System.dir/src/Main.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server_System.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Main.cpp.o -MF CMakeFiles/Server_System.dir/src/Main.cpp.o.d -o CMakeFiles/Server_System.dir/src/Main.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Main.cpp
+
+CMakeFiles/Server_System.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/Main.cpp > CMakeFiles/Server_System.dir/src/Main.cpp.i
+
+CMakeFiles/Server_System.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/Main.cpp -o CMakeFiles/Server_System.dir/src/Main.cpp.s
+
+CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o: ../src/MonitorServer.cpp
+CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o -MF CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o.d -o CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/MonitorServer.cpp
+
+CMakeFiles/Server_System.dir/src/MonitorServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/MonitorServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/MonitorServer.cpp > CMakeFiles/Server_System.dir/src/MonitorServer.cpp.i
+
+CMakeFiles/Server_System.dir/src/MonitorServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/MonitorServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/MonitorServer.cpp -o CMakeFiles/Server_System.dir/src/MonitorServer.cpp.s
+
 CMakeFiles/Server_System.dir/src/MutexLock.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/MutexLock.cpp.o: ../src/MutexLock.cpp
 CMakeFiles/Server_System.dir/src/MutexLock.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server_System.dir/src/MutexLock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server_System.dir/src/MutexLock.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/MutexLock.cpp.o -MF CMakeFiles/Server_System.dir/src/MutexLock.cpp.o.d -o CMakeFiles/Server_System.dir/src/MutexLock.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/MutexLock.cpp
 
 CMakeFiles/Server_System.dir/src/MutexLock.cpp.i: cmake_force
@@ -139,10 +181,24 @@ CMakeFiles/Server_System.dir/src/MutexLock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/MutexLock.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/MutexLock.cpp -o CMakeFiles/Server_System.dir/src/MutexLock.cpp.s
 
+CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o: ../src/MySQLClient.cpp
+CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o -MF CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o.d -o CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/MySQLClient.cpp
+
+CMakeFiles/Server_System.dir/src/MySQLClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/MySQLClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/MySQLClient.cpp > CMakeFiles/Server_System.dir/src/MySQLClient.cpp.i
+
+CMakeFiles/Server_System.dir/src/MySQLClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/MySQLClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/MySQLClient.cpp -o CMakeFiles/Server_System.dir/src/MySQLClient.cpp.s
+
 CMakeFiles/Server_System.dir/src/MyThread.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/MyThread.cpp.o: ../src/MyThread.cpp
 CMakeFiles/Server_System.dir/src/MyThread.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server_System.dir/src/MyThread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server_System.dir/src/MyThread.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/MyThread.cpp.o -MF CMakeFiles/Server_System.dir/src/MyThread.cpp.o.d -o CMakeFiles/Server_System.dir/src/MyThread.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/MyThread.cpp
 
 CMakeFiles/Server_System.dir/src/MyThread.cpp.i: cmake_force
@@ -153,24 +209,38 @@ CMakeFiles/Server_System.dir/src/MyThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/MyThread.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/MyThread.cpp -o CMakeFiles/Server_System.dir/src/MyThread.cpp.s
 
-CMakeFiles/Server_System.dir/src/Server_Main.cpp.o: CMakeFiles/Server_System.dir/flags.make
-CMakeFiles/Server_System.dir/src/Server_Main.cpp.o: ../src/Server_Main.cpp
-CMakeFiles/Server_System.dir/src/Server_Main.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server_System.dir/src/Server_Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Server_Main.cpp.o -MF CMakeFiles/Server_System.dir/src/Server_Main.cpp.o.d -o CMakeFiles/Server_System.dir/src/Server_Main.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Server_Main.cpp
+CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o: ../src/OpenSSLRandom.cpp
+CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o -MF CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o.d -o CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/OpenSSLRandom.cpp
 
-CMakeFiles/Server_System.dir/src/Server_Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/Server_Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/Server_Main.cpp > CMakeFiles/Server_System.dir/src/Server_Main.cpp.i
+CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/OpenSSLRandom.cpp > CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.i
 
-CMakeFiles/Server_System.dir/src/Server_Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/Server_Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/Server_Main.cpp -o CMakeFiles/Server_System.dir/src/Server_Main.cpp.s
+CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/OpenSSLRandom.cpp -o CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.s
+
+CMakeFiles/Server_System.dir/src/Register.cpp.o: CMakeFiles/Server_System.dir/flags.make
+CMakeFiles/Server_System.dir/src/Register.cpp.o: ../src/Register.cpp
+CMakeFiles/Server_System.dir/src/Register.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server_System.dir/src/Register.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Register.cpp.o -MF CMakeFiles/Server_System.dir/src/Register.cpp.o.d -o CMakeFiles/Server_System.dir/src/Register.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Register.cpp
+
+CMakeFiles/Server_System.dir/src/Register.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server_System.dir/src/Register.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wiles/MonitoringSystem/Server_System/src/Register.cpp > CMakeFiles/Server_System.dir/src/Register.cpp.i
+
+CMakeFiles/Server_System.dir/src/Register.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server_System.dir/src/Register.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wiles/MonitoringSystem/Server_System/src/Register.cpp -o CMakeFiles/Server_System.dir/src/Register.cpp.s
 
 CMakeFiles/Server_System.dir/src/Socket.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/Socket.cpp.o: ../src/Socket.cpp
 CMakeFiles/Server_System.dir/src/Socket.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server_System.dir/src/Socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Server_System.dir/src/Socket.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Socket.cpp.o -MF CMakeFiles/Server_System.dir/src/Socket.cpp.o.d -o CMakeFiles/Server_System.dir/src/Socket.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Socket.cpp
 
 CMakeFiles/Server_System.dir/src/Socket.cpp.i: cmake_force
@@ -184,7 +254,7 @@ CMakeFiles/Server_System.dir/src/Socket.cpp.s: cmake_force
 CMakeFiles/Server_System.dir/src/SocketIO.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/SocketIO.cpp.o: ../src/SocketIO.cpp
 CMakeFiles/Server_System.dir/src/SocketIO.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server_System.dir/src/SocketIO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Server_System.dir/src/SocketIO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/SocketIO.cpp.o -MF CMakeFiles/Server_System.dir/src/SocketIO.cpp.o.d -o CMakeFiles/Server_System.dir/src/SocketIO.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/SocketIO.cpp
 
 CMakeFiles/Server_System.dir/src/SocketIO.cpp.i: cmake_force
@@ -198,7 +268,7 @@ CMakeFiles/Server_System.dir/src/SocketIO.cpp.s: cmake_force
 CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o: ../src/TaskQueue.cpp
 CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o -MF CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o.d -o CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/TaskQueue.cpp
 
 CMakeFiles/Server_System.dir/src/TaskQueue.cpp.i: cmake_force
@@ -212,7 +282,7 @@ CMakeFiles/Server_System.dir/src/TaskQueue.cpp.s: cmake_force
 CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o: ../src/TcpConnection.cpp
 CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o -MF CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o.d -o CMakeFiles/Server_System.dir/src/TcpConnection.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/TcpConnection.cpp
 
 CMakeFiles/Server_System.dir/src/TcpConnection.cpp.i: cmake_force
@@ -226,7 +296,7 @@ CMakeFiles/Server_System.dir/src/TcpConnection.cpp.s: cmake_force
 CMakeFiles/Server_System.dir/src/TcpServer.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/TcpServer.cpp.o: ../src/TcpServer.cpp
 CMakeFiles/Server_System.dir/src/TcpServer.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server_System.dir/src/TcpServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Server_System.dir/src/TcpServer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/TcpServer.cpp.o -MF CMakeFiles/Server_System.dir/src/TcpServer.cpp.o.d -o CMakeFiles/Server_System.dir/src/TcpServer.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/TcpServer.cpp
 
 CMakeFiles/Server_System.dir/src/TcpServer.cpp.i: cmake_force
@@ -240,7 +310,7 @@ CMakeFiles/Server_System.dir/src/TcpServer.cpp.s: cmake_force
 CMakeFiles/Server_System.dir/src/Threadpool.cpp.o: CMakeFiles/Server_System.dir/flags.make
 CMakeFiles/Server_System.dir/src/Threadpool.cpp.o: ../src/Threadpool.cpp
 CMakeFiles/Server_System.dir/src/Threadpool.cpp.o: CMakeFiles/Server_System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Server_System.dir/src/Threadpool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Server_System.dir/src/Threadpool.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Server_System.dir/src/Threadpool.cpp.o -MF CMakeFiles/Server_System.dir/src/Threadpool.cpp.o.d -o CMakeFiles/Server_System.dir/src/Threadpool.cpp.o -c /home/wiles/MonitoringSystem/Server_System/src/Threadpool.cpp
 
 CMakeFiles/Server_System.dir/src/Threadpool.cpp.i: cmake_force
@@ -257,9 +327,14 @@ Server_System_OBJECTS = \
 "CMakeFiles/Server_System.dir/src/Condition_va.cpp.o" \
 "CMakeFiles/Server_System.dir/src/EventLoop.cpp.o" \
 "CMakeFiles/Server_System.dir/src/InetAddress.cpp.o" \
+"CMakeFiles/Server_System.dir/src/Login.cpp.o" \
+"CMakeFiles/Server_System.dir/src/Main.cpp.o" \
+"CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o" \
 "CMakeFiles/Server_System.dir/src/MutexLock.cpp.o" \
+"CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o" \
 "CMakeFiles/Server_System.dir/src/MyThread.cpp.o" \
-"CMakeFiles/Server_System.dir/src/Server_Main.cpp.o" \
+"CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o" \
+"CMakeFiles/Server_System.dir/src/Register.cpp.o" \
 "CMakeFiles/Server_System.dir/src/Socket.cpp.o" \
 "CMakeFiles/Server_System.dir/src/SocketIO.cpp.o" \
 "CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o" \
@@ -274,9 +349,14 @@ bin/Server_System: CMakeFiles/Server_System.dir/src/Acceptor.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/Condition_va.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/EventLoop.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/InetAddress.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/Login.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/Main.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/MutexLock.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/MySQLClient.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/MyThread.cpp.o
-bin/Server_System: CMakeFiles/Server_System.dir/src/Server_Main.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/OpenSSLRandom.cpp.o
+bin/Server_System: CMakeFiles/Server_System.dir/src/Register.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/Socket.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/SocketIO.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/TaskQueue.cpp.o
@@ -285,10 +365,14 @@ bin/Server_System: CMakeFiles/Server_System.dir/src/TcpServer.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/src/Threadpool.cpp.o
 bin/Server_System: CMakeFiles/Server_System.dir/build.make
 bin/Server_System: /usr/lib/x86_64-linux-gnu/libconfig++.so
+bin/Server_System: /usr/lib/x86_64-linux-gnu/libssl.so
+bin/Server_System: /usr/lib/x86_64-linux-gnu/libcrypto.so
+bin/Server_System: /usr/local/lib/liblog4cpp.so
+bin/Server_System: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 bin/Server_System: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
 bin/Server_System: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 bin/Server_System: CMakeFiles/Server_System.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable bin/Server_System"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wiles/MonitoringSystem/Server_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable bin/Server_System"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server_System.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

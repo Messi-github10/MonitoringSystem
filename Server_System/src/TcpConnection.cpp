@@ -27,6 +27,10 @@ string TcpConnection::receive()
     return string(buffer);
 }
 
+int TcpConnection::readPacket(Packet &packet){
+    return _socketIO.readPacket(packet);
+}
+
 void TcpConnection::send(const string &message)
 {
     _socketIO.sendn(message.c_str(), message.size());
@@ -98,6 +102,18 @@ void TcpConnection::sendInLoop(const string &message)
     }
 }
 
+void TcpConnection::sendInLoop(const TLV &data){
+    // 将字节序转化成为网络字节序
+    TLV net_tlv;
+    net_tlv.type = htonl(data.type);
+    net_tlv.length = htonl(data.length);
+    memcpy(net_tlv.data, data.data, data.length);
+
+    int tlv_len = 8 + data.length;
+    string msg;
+    msg.assign(reinterpret_cast<const char *>(&net_tlv), tlv_len);
+    sendInLoop(msg);
+}
 
 InetAddress TcpConnection::getLocalAddr(int fd)
 {

@@ -1,0 +1,4 @@
+{
+    "query" : "SELECT * FROM tb_username WHERE name = :name",
+    "select" : "SELECT * FROM tb_username"
+}

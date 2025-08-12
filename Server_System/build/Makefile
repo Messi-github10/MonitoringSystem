@@ -222,6 +222,30 @@ src/Condition_va.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Condition_va.cpp.s
 .PHONY : src/Condition_va.cpp.s
 
+src/Configuration.o: src/Configuration.cpp.o
+.PHONY : src/Configuration.o
+
+# target to build an object file
+src/Configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Configuration.cpp.o
+.PHONY : src/Configuration.cpp.o
+
+src/Configuration.i: src/Configuration.cpp.i
+.PHONY : src/Configuration.i
+
+# target to preprocess a source file
+src/Configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Configuration.cpp.i
+.PHONY : src/Configuration.cpp.i
+
+src/Configuration.s: src/Configuration.cpp.s
+.PHONY : src/Configuration.s
+
+# target to generate assembly for a file
+src/Configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Configuration.cpp.s
+.PHONY : src/Configuration.cpp.s
+
 src/EventLoop.o: src/EventLoop.cpp.o
 .PHONY : src/EventLoop.o
 
@@ -269,6 +293,30 @@ src/InetAddress.s: src/InetAddress.cpp.s
 src/InetAddress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/InetAddress.cpp.s
 .PHONY : src/InetAddress.cpp.s
+
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
+
+# target to build an object file
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
+
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
+
+# target to preprocess a source file
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
+
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
+
+# target to generate assembly for a file
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server_System.dir/build.make CMakeFiles/Server_System.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
 
 src/Login.o: src/Login.cpp.o
 .PHONY : src/Login.o
@@ -625,12 +673,18 @@ help:
 	@echo "... src/Condition_va.o"
 	@echo "... src/Condition_va.i"
 	@echo "... src/Condition_va.s"
+	@echo "... src/Configuration.o"
+	@echo "... src/Configuration.i"
+	@echo "... src/Configuration.s"
 	@echo "... src/EventLoop.o"
 	@echo "... src/EventLoop.i"
 	@echo "... src/EventLoop.s"
 	@echo "... src/InetAddress.o"
 	@echo "... src/InetAddress.i"
 	@echo "... src/InetAddress.s"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
 	@echo "... src/Login.o"
 	@echo "... src/Login.i"
 	@echo "... src/Login.s"

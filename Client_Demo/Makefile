@@ -1,6 +1,6 @@
 # 定义变量
-SRCS:=$(wildcard *.cc)
-OBJS:=$(patsubst %.cc,%, $(SRCS))
+SRCS:=$(wildcard *.cpp)
+OBJS:=$(patsubst %.cpp,%, $(SRCS))
 
 all:$(OBJS)
 

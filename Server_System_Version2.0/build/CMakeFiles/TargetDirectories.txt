@@ -1,0 +1,7 @@
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/Server_System.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/edit_cache.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/rebuild_cache.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/list_install_components.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/install.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/install/local.dir
+/home/wiles/project2/Server_System_Version2.0/build/CMakeFiles/install/strip.dir

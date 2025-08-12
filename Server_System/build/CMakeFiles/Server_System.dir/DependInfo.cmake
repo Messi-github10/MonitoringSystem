@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wiles/MonitoringSystem/Server_System/src/Acceptor.cpp" "CMakeFiles/Server_System.dir/src/Acceptor.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Acceptor.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/Condition_va.cpp" "CMakeFiles/Server_System.dir/src/Condition_va.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Condition_va.cpp.o.d"
+  "/home/wiles/MonitoringSystem/Server_System/src/Configuration.cpp" "CMakeFiles/Server_System.dir/src/Configuration.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Configuration.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/EventLoop.cpp" "CMakeFiles/Server_System.dir/src/EventLoop.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/EventLoop.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/InetAddress.cpp" "CMakeFiles/Server_System.dir/src/InetAddress.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/InetAddress.cpp.o.d"
+  "/home/wiles/MonitoringSystem/Server_System/src/Logger.cpp" "CMakeFiles/Server_System.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Logger.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/Login.cpp" "CMakeFiles/Server_System.dir/src/Login.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Login.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/Main.cpp" "CMakeFiles/Server_System.dir/src/Main.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/Main.cpp.o.d"
   "/home/wiles/MonitoringSystem/Server_System/src/MonitorServer.cpp" "CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o" "gcc" "CMakeFiles/Server_System.dir/src/MonitorServer.cpp.o.d"
